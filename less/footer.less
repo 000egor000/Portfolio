@@ -1,0 +1,42 @@
+.footer {
+  background-color: @black;
+  padding: 20px 0;
+  color: rgba(106, 105, 107, 0.7);
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.left__icon {
+  text-decoration: none;
+}
+
+.footer__inner__left {
+  display: flex;
+  align-items: center;
+}
+.footer__inner__left__text {
+  padding-right: 10px;
+  border-right: 1px solid rgba(106, 105, 107, 0.7);
+}
+.left__icon {
+  padding: 0 15px;
+  align-items: center;
+}
+.link--nav {
+  color: rgba(106, 105, 107, 0.7);
+}
+.link--btnm {
+  border-color: rgba(106, 105, 107, 0.7);
+  color: rgba(106, 105, 107, 0.7);
+  transition: background-color 0.2s linear;
+  &:hover {
+    background-color: rgba(66, 65, 66, 0.7);
+  }
+}
+.left__icon__link {
+  transition: transform 0.2s linear;
+  img:hover {
+    transform: translateY(-2px);
+  }
+}

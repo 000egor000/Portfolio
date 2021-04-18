@@ -1,0 +1,51 @@
+@import 'per';
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: @black;
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+*,
+* ::before,
+::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+@import 'slick/slick.less';
+
+@import 'container';
+@import 'header';
+@import 'user';
+@import 'nav';
+@import 'intro';
+@import 'social';
+@import 'btn';
+@import 'works';
+@import 'portfolio';
+@import 'about';
+@import 'testimonial';
+@import 'blog';
+@import 'footer';
+@import 'modal';
+@import 'modal__work';
+@import 'timeline';
+@import 'progressbar';
+@import 'contact';
+
+@import 'grup';
+.hide {
+  display: none;
+}
